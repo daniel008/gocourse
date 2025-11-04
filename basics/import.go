@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -16,4 +16,8 @@ func main() {
 	defer rep.Body.Close()
 
 	fmt.Println("HTTP Response Status: ", rep.Status)
+
+	showVariables()
+	namingConventions()
+	dataTypes()
 }

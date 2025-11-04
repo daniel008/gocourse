@@ -14,7 +14,7 @@ type EmployeeApple struct {
 	Age       int
 }
 
-func main() {
+func namingConventions() {
 	// Pascal Case
 	// for data types for example Structs, Interfaces Enums ect
 	// Eg. CalculateArea, UserInfo, NewHttpRequest

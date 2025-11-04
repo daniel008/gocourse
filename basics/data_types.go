@@ -1,6 +1,6 @@
 package basics
 
-func main1() {
+func dataTypes() {
 	var a int = 1
 	var b float64 = 1.1
 	var c string = "hello"
