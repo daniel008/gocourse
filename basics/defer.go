@@ -6,7 +6,7 @@ func Defer() {
 	process(10)
 
 }
-func process(i int) {
+func processDefer(i int) {
 	defer fmt.Println("Deferred i value:", i)
 	defer fmt.Println("First deferred statement executed")
 	defer fmt.Println("Second deferred statement executed")
