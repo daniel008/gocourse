@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -12,6 +12,6 @@ func init() {
 	fmt.Println("Initializing package2...")
 }
 
-func main() {
+func initMain() {
 	fmt.Println("Inside the main function")
 }
